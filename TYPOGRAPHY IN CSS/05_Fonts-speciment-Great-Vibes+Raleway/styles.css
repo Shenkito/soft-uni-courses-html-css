@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px;
+}
+
+h1, h2 {
+    font-family: "Great Vibes", cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: square; /* Filled black squares for the main list */
+}
+
+ul ul {
+    list-style-type: disc; /* Filled black circles for the first level of nested list */
+}
+
+ul ul ul {
+    list-style-type: none; /* No bullets for the second level of nested list */
+}
+
+ul ul ul li {
+    list-style-type: circle; /* Filled white circles for the third level of nested list */
+}
