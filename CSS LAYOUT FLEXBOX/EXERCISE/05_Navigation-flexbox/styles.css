@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 3em;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Add this line to create space between the title and nav */
+    align-items: center; /* Align items vertically in the center */
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+a:hover {
+    background-color: aqua;
+}
