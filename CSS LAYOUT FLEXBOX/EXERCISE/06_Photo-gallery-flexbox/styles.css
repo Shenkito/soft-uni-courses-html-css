@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 5em;
+    background-color: #eee;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+li {
+    flex: 0 0 calc(30% - 16px); /* Adjust the flex-basis value to make the items smaller */
+    display: flex;
+    align-items: center;
+    border: 8px solid black;
+    justify-content: space-between;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: white;
+    padding: 1.5em; /* Adjust padding as needed */
+}
+
+img {
+    width: 100%; /* Ensure images take up the full width of their container */
+    height: auto;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    li {
+        flex: 0 0 calc(50% - 16px); /* Adjust the flex-basis value for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    li {
+        flex: 0 0 calc(100% - 16px); /* Adjust the flex-basis value for smaller screens */
+    }
+}
