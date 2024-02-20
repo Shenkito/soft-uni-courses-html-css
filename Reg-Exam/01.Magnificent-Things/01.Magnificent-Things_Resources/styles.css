@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter';
+    width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    margin: 2em;
+}
+
+.content {
+    display: flex;
+    width: 1050px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #85dcff;
+    border: 2px solid black;
+}
+
+.left {
+    padding: 2em;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 14px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: 2px solid black;
+    color: white;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+.learn-more {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.get-started:hover {
+    background-color: black;
+}
+
+.right-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -3.5em;
+}
+
+img {
+    max-width: 360px;
+    max-height: 100%;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 1);
+}
